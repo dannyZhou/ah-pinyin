@@ -30,6 +30,9 @@
     "test": "jest --coverage",
     "debug": "npx ts-node tools/debug.ts"
   },
+  "optionalDependencies": { 
+    "segmentit": "^2.0.3"
+  },
   "dependencies": {
     "commander": "~1.1.1"
   },
